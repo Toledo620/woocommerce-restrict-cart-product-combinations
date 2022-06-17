@@ -3,7 +3,7 @@
 Plugin Name:  Woocommerce-restrict-cart-product-combinations
 Description:  Restricts cart product combinations
 Plugin URI:   N/A
-Author:       toledo, daigo75
+Author:       Toledo620, daigo75
 Version:      1.0
 License:      GPL v2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.txt
@@ -16,7 +16,7 @@ A warning message will appear on other products if any restrict product is in th
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory.
+1. Upload the plugin files to the `/wp-content/plugins/woocommerce-restrict-cart-product-combinations` directory.
 1. Add restricted product names to the restricted cart items array in woocommerce-restrict-cart-product-combinations.php
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
