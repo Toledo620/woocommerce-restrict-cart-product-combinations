@@ -30,7 +30,7 @@ A warning message will appear on other products if any restrict product is in th
 A good usage for this plugin would be to use the woocommerce framework to allow crypto donations on a non-profits wordpress website.
 Install plugins: woocommerce, Payment Gateways per Products for WooCommerce, Crypto.com Pay Checkout for WooCommerce, and woocommerce-restrict-cart-product-combinations
 1. Create a simple woocommerce product for crypto donations and name it "Crypto Donation" provide a category with the same name, set the price to the average donation for the non-profit. 
-1. Setup the Crypto.com Pay Checkout to go live. 
+1. Setup the Crypto.com Pay Checkout to go live. https://merchant.crypto.com/
 1. Go into settings for Payment Gateways per Products and exclude the category "Crypto Donation" for all payment gateways besides crypto.com Pay
 1. Install this plugin with restricted product name "Crypto Donation"
 
