@@ -1,0 +1,37 @@
+=== Plugin Name ===
+
+Plugin Name:  Woocommerce-restrict-cart-product-combinations
+Description:  Restricts cart product combinations
+Plugin URI:   N/A
+Author:       toledo, daigo75
+Version:      1.0
+License:      GPL v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.txt
+
+== Description ==
+Restrict product combinations in the woocommerce cart by adding the product names to the restricted cart items array. 
+If these items are in the cart then items not in this list cannot be added to the cart.
+If any items in the restricted cart array is added to the cart while other products are in the cart then those other products will be automatically booted from the cart. 
+A warning message will appear on other products if any restrict product is in the cart. 
+
+== Installation ==
+
+1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory.
+1. Add restricted product names to the restricted cart items array in woocommerce-restrict-cart-product-combinations.php
+1. Activate the plugin through the 'Plugins' screen in WordPress
+
+== Changelog ==
+
+= 1.0 =
+* Works with woocommerce 6.6.0 without debug error logs
+
+== Arbitrary section ==
+
+A good usage for this plugin would be to use the woocommerce framework to allow crypto donations on a non-profits wordpress website.
+Install plugins: woocommerce, Payment Gateways per Products for WooCommerce, Crypto.com Pay Checkout for WooCommerce, and woocommerce-restrict-cart-product-combinations
+1. Create a simple woocommerce product for crypto donations and name it "Crypto Donation" provide a category with the same name, set the price to the average donation for the non-profit. 
+1. Setup the Crypto.com Pay Checkout to go live. 
+1. Go into settings for Payment Gateways per Products and exclude the category "Crypto Donation" for all payment gateways besides crypto.com Pay
+1. Install this plugin with restricted product name "Crypto Donation"
+
+The above example is just one use case, this plugin can be configured for whatever you need it to be.
